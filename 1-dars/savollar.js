@@ -17,3 +17,4 @@
 //  const -o'zgarmas.
 // let-skopga tegishli
 // var - global
+//nimadir
