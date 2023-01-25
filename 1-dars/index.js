@@ -61,3 +61,14 @@
 // ======================================="Primitive NON-Primitive"==============
 
 // Object -array, obj, function
+
+
+let ar=["Muhammad", 25, "Samariddin", 28]
+let obj={name: "webbrain ", status: "academy"}
+let func=()=>{}
+function test(){
+
+    console.log(ar[2]);
+    console.log(obj.name);
+ }
+test()
