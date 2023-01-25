@@ -11,3 +11,9 @@
 // Non-primitive refrins qaytaradi yani link
 // Symbols- yunik id bir biriga tengmas
 // Object-array, obj, function bularning data type object
+// Object nima - refrensga qarab malumotlarni chaqirish bunga {array, object, function} kiradi.
+// string nima - stringning 3ta ko'rinishi bor 1-ikkitalik qushtrnoq 2-bittalik qushtrnoq 3-bektag buni farqi stringning ichida qushimcha virabil ishlatib ketsa bo'ladi virabil esa ${name} shu ko'rinishda yoziladi.
+// let, var, const nima- let bilan const virabilni belgilash uchun kerak bo'ladi
+//  const -o'zgarmas.
+// let-skopga tegishli
+// var - global
