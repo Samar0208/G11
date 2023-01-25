@@ -5,7 +5,7 @@
 // Variables - let, var, const  let-kam xotradan joy oladi kerakli joyda ishlaydi qolgan vaqtda joyni bo'shatib quyadi
 // let bilam var ning farqi - let - scop, var - global;
 // Data Types - JS da 8ta  data type lar mavjud ulardan 7 tasi primitive, 1tasi non- primitive
-// Number, Bigint, String, Boolean, Null, Undefined, Symbols,
+// Number, Bigint, String, Boolean, Null, Undefined, Symbols, Object.
 // NON-primitive - Object, arry, function
 // Primitev  data taype value qaytaradi
 // Non-primitive refrins qaytaradi yani link
