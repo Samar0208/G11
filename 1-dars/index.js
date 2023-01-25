@@ -70,3 +70,6 @@ function test() {
   console.log(obj.name);
 }
 test();
+
+console.log(Math.max(-10, 5, 2, -1, 25, -45));
+console.log(Math.min(-10, 5, 2, -1, 25, -45));
