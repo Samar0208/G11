@@ -19,3 +19,17 @@
 // false=> 0
 // console.log(ture == 1); true,   console.log(false==null); false, console.log(undefined==null); false
 // console.log(false == 0) true, console.log(false==undefined); true
+
+// =, ==, ===,
+
+// = Bitta tenglik nima - viribilga yangi qiymat biriktrish =
+// == Ikkita tenglik nima - taqqoslash bir biriga ==
+// === ucta tenglik nima - qatiy tenglik data taypini ham tekshiradi ===
+
+// !=, !==
+
+// != teng emas, !== qatiy teng emas
+
+// =================  Logical Operations ==========
+//  //-OR, &&-AND, !-NOT
+// //-OR- Yoki
