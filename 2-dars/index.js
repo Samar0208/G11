@@ -158,3 +158,59 @@
 // let name = "Rasulbek";
 // let age = 24;
 // console.log(`hello ${name} yoshing nechida ${age} da`);
+
+// let num1 = 1;
+// let num2 = 1;
+
+// let num1 = (num2 = 1);
+// console.log(num1);
+
+// let a = 2;
+// let b = 3;
+
+// console.log(a+(a + b) * b);
+
+// let a = 11;
+// a++;
+// console.log(a++);
+// console.log(0.1 + 0.2 == 0.3);
+
+// =================================== Data taype =========
+
+// Number    -+ 600710025470332  Number shu songaxsh bo'lganini oladi bundan kattasi Bigint
+
+// let str1 = "1234"; // String
+// let str2 = "1234'67'"; // String
+// let str3 = `1234 ${str1}89`; // String
+// let str4 = 1234; // Number
+
+// console.log(typeof str1, typeof str2, typeof str3);
+
+// BigInt     600710025470332  "n" bilan tugaydi shu sondan katta bo'lsa "n" qushib ishlatiladi qushmoqchi bo'lsak ham ayrmoqchi bo'lsak ham
+
+// console.log(60071002547003392n + 1n);
+
+// String - text
+
+// let str1 = "1234"; // String
+// let str2 = "1234'67'"; // String
+// let str3 = `1234 ${str1}89`; // String
+
+// Boolean    true / false
+
+// Undefined / Null
+
+// let title; // undefined
+// let student; // null
+
+// student = 1;
+// student = null;
+
+// console.log(title);
+// console.log(student);
+
+// Symbol
+
+let id1 = Symbol(1234);
+let id2 = Symbol(1234);
+console.log(id1 === id2);

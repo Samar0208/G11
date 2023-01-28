@@ -33,3 +33,13 @@
 // =================  Logical Operations ==========
 //  //-OR, &&-AND, !-NOT
 // //-OR- Yoki
+
+// ====== Reserved Keywords=====================
+
+// Reserved Keywords nima - band qilingan so'zlar bor misol uchun console.log(), let, const, var shunga uxshash so'zlar
+
+// let num; // declaration virabil yasash // undefined
+// num=1; // assign virabilga qiymat kiritish
+
+// let num1=1; let num2 = num1; console.log(num1, num2); nateja 1 1 BU viribel declaration deyladi
+//
