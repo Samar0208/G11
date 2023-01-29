@@ -211,6 +211,43 @@
 
 // Symbol
 
-let id1 = Symbol(1234);
-let id2 = Symbol(1234);
-console.log(id1 === id2);
+// let id1 = Symbol(1234); // false
+// let id2 = Symbol(1234); // false
+// console.log(id1 === id2); // false
+
+
+// ============================ Object ==============
+
+// let name="Webbrain"
+// let surname="Academy"
+// let yare=1234
+
+// console.log(name, surname, yare);
+// console.log(user);
+
+// ============================= Array ==========
+
+let name="Webbrain"
+let surname="Academy"
+let yare=1234
+
+
+// let user={
+//     name:"Webbrain", 
+//     surname:"Academy",
+//     yare: 1234}
+
+// let unvi = [user, user, user, user]
+// console.log(unvi);
+
+
+// =============== Primitiv va Nan Primitiv ========
+
+// let n1=1   // value qaytadi 
+// let n2=1
+
+// let obj1={num:1} // link qaytadi
+// let obj2={num:2}
+
+// console.log(n1===n2); // value 
+// console.log(obj1===obj2); // link 

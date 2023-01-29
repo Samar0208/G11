@@ -1,4 +1,4 @@
-// Single Thread nima - bir boshidsn ish boshlaydi yani tepadan pastga qarab bittadan ish bajaradi
+// Single Thread nima - bir vaqtning uzida bitta amal bajarishiga aytiladi. Bir boshidan ish boshlaydi yani tepadan pastga qarab bittadan ish bajaradi
 // JS da nechi xil compint qilsa bo'ladi-
 // HTML da script da src yozsa, yozmasa nima bo'ladi-
 // Virabil nima-
@@ -42,4 +42,23 @@
 // num=1; // assign virabilga qiymat kiritish
 
 // let num1=1; let num2 = num1; console.log(num1, num2); nateja 1 1 BU viribel declaration deyladi
-//
+
+
+// =============== Symbol ======
+
+// Symbol nima - Symbol bu bir xil id/larni qaytarmaydigan data type ya'ni pasportning id raqamoga uxshash
+
+// ============= Object ===========
+
+//  Object nima - Objectga Object Array, Function/lar kiradi {}
+// Object misol uchun bitta institutni oladigan bolsak undagi o'quvchilarni bitta bitta ifodalaymiz
+
+// =============Array===========
+
+// Array esa  hamma o'uchini ifodalaydigan bo'lsak arraydan foydalanamiz []
+
+
+// ============== primitiv va nan primitiv =======
+// Primitiv - value qaytaradi     primitiv malumotlarni stack/da saqlaydi stack/ga nalumot value bub boradi
+// Nan Primitiv - link qaytaradi  Nan primitiv malumotlarni stack/ga url qib yuboradi heap/ga esa value bub boradi url/lar xech qachon takrolanmaydi
+// Stack va Heap bular xotra memoredagi 
