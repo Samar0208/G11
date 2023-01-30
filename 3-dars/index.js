@@ -89,5 +89,5 @@
 // console.log(login && pw && navigator("/home"));
 // console.log(login || pw);
 
-console.log("" + 1 + 0);
-console.log("" - 1 + 0);
+// console.log("" + 1 + 0);
+// console.log("" - 1 + 0);

@@ -34,7 +34,7 @@
 //  //-OR, &&-AND, !-NOT
 // //-OR- Yoki
 
-// ====== Reserved Keywords=====================
+// ====== Reserved Keywords =====================
 
 // Reserved Keywords nima - band qilingan so'zlar bor misol uchun console.log(), let, const, var shunga uxshash so'zlar
 
@@ -57,6 +57,7 @@
 // Array esa  hamma o'uchini ifodalaydigan bo'lsak arraydan foydalanamiz []
 
 // ============== primitiv va nan primitiv =======
+
 // Primitiv - value qaytaradi     primitiv malumotlarni stack/da saqlaydi stack/ga nalumot value bub boradi
 // Nan Primitiv - link qaytaradi  Nan primitiv malumotlarni stack/ga url qib yuboradi heap/ga esa value bub boradi url/lar xech qachon takrolanmaydi
 // Stack va Heap bular xotra memoredagi
