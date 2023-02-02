@@ -81,12 +81,12 @@
 
 // Nullish -> undefined va null ni false deb qabul qiladi undab boshqa barcha qiymatlarni true deb qabul qiladi. U || OR opertori bilan bir xil ishlaydi.
 
-console.log(true || false); // true
-console.log(true ?? false); // true
-console.log(false || true); // true
-console.log(false ?? true); // false
-console.log(null || true); // true
-console.log(false ?? "hi"); // false
-console.log(null ?? "hi"); // hi
-console.log(null ?? undefined); // undefined
-console.log(undefined ?? null); // null
+// console.log(true || false); // true
+// console.log(true ?? false); // true
+// console.log(false || true); // true
+// console.log(false ?? true); // false
+// console.log(null || true); // true
+// console.log(false ?? "hi"); // false
+// console.log(null ?? "hi"); // hi
+// console.log(null ?? undefined); // undefined
+// console.log(undefined ?? null); // null
