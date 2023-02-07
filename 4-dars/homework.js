@@ -67,3 +67,16 @@
 // for (let i = 0; i < 3; i++) {
 //   console.log(`number ${i}`);   // 0 number,  1 number,  3 number
 // }
+
+// 2,3,5,7
+
+let n = 2;
+check = true;
+if (n > 1) {
+  for (i = 2; i < n; i++) {
+    if (n % i == 0) check = true;
+    else check = false;
+  }
+  if (check) console.log(`${n} tub son emas!`);
+  else console.log(`${n} tub son!`);
+} else console.log(`${n} tub son emas!`);

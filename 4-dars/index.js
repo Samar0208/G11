@@ -79,7 +79,20 @@
 //   console.log(i, "do while");
 // } while (i);
 
-for (var i = 1; i <= 10; i++) {
-  if (i === 5) continue;
-  console.log(i);
+// for (var i = 1; i <= 10; i++) {
+//   if (i === 5) continue;
+//   console.log(i);
+// }
+
+// console.log("ikkilik karra jadvali");
+// for (i = 4; i <= 4; i++) {
+//   for (j = 5; j < 10; j++) {
+//     console.log(`${i}x${j}=${i * j}`);
+//   }
+// }
+
+for (i = 2; i >= 2; --i) {
+  for (j = 10; j > 1; --j) {
+    console.log(`${i}x${j}=${i * j}`);
+  }
 }
