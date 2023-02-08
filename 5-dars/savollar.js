@@ -55,4 +55,4 @@
 // let a={x:10, y:20}; let c=a; console.log(c); // {x:10, y:20}
 // bunga sabab a bilan c stekga birxi url manzillari bir xil;
 
-// Garbage collection nima - ishlatib bo'lmaydigan malumorlarni musirga tashavoradi.
+// Garbage collection nima - ishlatib bo'lmaydigan malumorlarni musirga tashavoradi. Yani nanprimitevdan primetibga utgan prmitivning valuesi garbage collectionga borib tushadi;
