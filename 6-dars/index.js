@@ -79,7 +79,51 @@ let locationDig = "Beruniy";
 // }
 // console.log(menu);
 
-let name = "webbrain academy";
-let users1 = { id: 1, name };
-let users2 = { id: 1, name: name };
-console.log(users1[name]);
+// let name = "webbrain academy";
+// let users1 = { id: 1, name };
+// let users2 = { id: 1, name: name };
+// console.log(users1[name]);
+
+// let webbrain={
+//     title:"webbrain",
+//     year:2019,
+//     location:"Chilonzor"
+
+// }
+
+// for(key in webbrain ){
+//      console.log(webbrain[key], webbrain[""]);
+// }
+
+// let wba1={name:"webbrain"};
+// let wba2={name:"webbrain"};
+// let wba3 = structuredClone(wba2); 
+// console.log(wba3);
+// wba2.name="1234";  
+
+// console.log(wba1, wba2, wba3);
+// console.log(wba1===wba2);
+// console.log(wba1===wba2);
+// console.log(wba3===wba2);
+
+
+// let users={name: "webbrain"}
+// let year={year: 2019, kv:200}
+// users.year=year.year // 1-usul
+    // users={...users, ...year} 2-usul
+    // Object.assign(users, year, {test:"t"})
+// console.log(users);
+// console.log(year);
+
+
+// let wba={wba: "webbrain"}
+// console.log(wba);
+
+// let users={
+//     name: "Webbrain",
+//     title:"IT Center",
+//     fullDesc: function(){
+//         return this.name+this.title
+//     }
+// }
+// console.log(users.fullDesc());
