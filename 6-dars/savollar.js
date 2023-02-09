@@ -5,12 +5,12 @@
 
 //===================================================================================
 
-// 1.Object nima - object uzida malum bir tuplamdagi malumotlarni uz ichida saqlavchi nanpeimetiv dataypga ega bo'lgan malumot turi xisoblanadi.
+// 1.Object nima - key va voluelardan tshkel topga nanpeimetiv typega kirivchi  data type.
 // Objectning ikki parametri mavjud - key va value xisoblanadi birinchi key yoziladi va undan keyin value yoziladi.
 
 //  2. Object ichidan malumot chaqirib olish - buning ikkita usuli bor birinchisi console.log(user.name); ikkinchi usuli console.log(user["name"]) shu kurinshda yoziladi; bunda ikkinchi usul ikki bug'inli keylar ham bo'lganda shunda ishlatiladi masaln "full name": "wba" console.log(user["full name"]) birinchi usulda faqat full ni o'qiydi name o'qilmay qoladi va error beradi;
 
-// 3. Dynamic key access - bu yo'qorida kursatilgan ikkinchi usul bu namfaqat ikki bo'g'inli balki istalgan xar qanday keyni shu usulda chaqirib olsak bo'ladi;
+// 3. Dynamic key access - bu yo'qorida kursatilgan ikkinchi usul bu nafaqat ikki bo'g'inli balki istalgan xar qanday keyni shu usulda chaqirib olsak bo'ladi;
 
 // 4. Obrivation key name - yani qisqartmalar bunda biz biror bir object yaratadigab bo'lsak tepada bitta uzgarivchi yaratib olinadi va object ichida chaqiriladi mislo ucun let name="Samar"; let obj={name: name} deb yozadigan bolsak tepadagi name uzgarivchisinig valuesi utib qoladi; yana buni soddalashtradihan bo'lsak let obj={name} deb yozadigan bo'lsak ham shu bir xil javob qaytaradi.
 
@@ -36,12 +36,12 @@
 // let obj2={son:100};
 // obj2=Object.assign(obj1,obj2) // word:"Hello", son:100;
 
-// structuresClone() bu boshqa boshqa klonlarni memoriydan ajratadi
+// StructuresClone() bu boshqa boshqa klonlarni memoriydan ajratadi; xar ikkala uzgarivchiga ham alohida alohida refrens beradi;
 // Misol:
 // let a={x:10, y:20}; let c=a; console.log(c); // {x:10, y:20}
 // bunga sabab a bilan c stekga birxi url manzillari bir xil;
 
-// Garbage collection nima - ishlatib bo'lmaydigan malumorlarni musirga tashavoradi. Yani nanprimitevdan primetibga utgan prmitivning valuesi garbage collectionga borib tushadi;
+//  Garbage collection nima - ishlatib bo'lmaydigan malumorlarni musirga tashavoradi. Yani nanprimitevdan primetibga utgan prmitivning valuesi garbage collectionga borib tushadi;
 
 // 7. Object methods - objectning ichida funksiyalar yozib uni chaqirsa ham bo'ladi va object ichida yana object yaratasa ham bo'ladi;
 
