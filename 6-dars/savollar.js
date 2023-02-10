@@ -38,7 +38,16 @@
 
 // StructuresClone() bu boshqa boshqa klonlarni memoriydan ajratadi; xar ikkala uzgarivchiga ham alohida alohida refrens beradi;
 // Misol:
-// let a={x:10, y:20}; let c=a; console.log(c); // {x:10, y:20}
+// let a={x:10, y:20}; let c=a; console.log(c);
+// let a={
+//     x:10,
+//     y:20
+// }
+
+// let c=a; console.log(c);
+// a.x=12
+// console.log(c)
+ // {x:10, y:20}
 // bunga sabab a bilan c stekga birxi url manzillari bir xil;
 
 //  Garbage collection nima - ishlatib bo'lmaydigan malumorlarni musirga tashavoradi. Yani nanprimitevdan primetibga utgan prmitivning valuesi garbage collectionga borib tushadi;

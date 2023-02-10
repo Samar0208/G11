@@ -69,6 +69,13 @@
 
 // console.log(Math.sign(12)); // 1
 
-let a = 3;
+// let a = 3;
 
-console.log(parseInt(a.toString(2)));
+// console.log(parseInt(a.toString(2),2));
+
+// let a=3;
+// console.log(isNaN(12*"hg")); // true
+
+let a=3.123456
+console.log(a.toPrecision(2));
+console.log(a.toFixed(2));

@@ -9,3 +9,12 @@
 // round() numa - bu kasr sonlarni 1.2 bulsa bir qaytaradi 1.5 va undan katta sonlarga 1 qushib qaytaradi;
 // pow() nima - bu darjani chiqarib beradi misol uchun 2**4 ni pow(2,4) deb yozsak =16 chiqadi;
 // sign() nima - bu sonning +, -, 0 ekanligini ifodalaydi: misp uchun console.log(Math.sign(12)) // 1 agar shuning oldida  menus bo'lsa -1  chiqaradi nul bo'sa nulni chiqaradi;
+ 
+
+// toString - sonni bayneriyga uzgartrib beradi ;
+
+// isNaN - malumot isNaN yokida isNaN emasligini ifodalab beradi, isNaN turu yoki false qaytaradi;
+
+// toPrecision() - bu bizda kasir son bulsa misol uchun 3.123 toPrecision(2) yozadigan bo'lsak  3.1 qaytaradi lekin bu metodlarda stringa aylanib ketadi;
+
+// toFixed() - bu esa kasir son bo'lsa misol uchun 3.123 bolsa toFixed(2) yozadigan bo'lsak 3.12 qaytaradi lekin bu metodlarda stringa aylanib ketadi; 
