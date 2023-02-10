@@ -241,18 +241,45 @@ let locationDig = "Beruniy";
 // }
 // console.log(menu);
 
-let calculator = {
-  read: function (a, b) {
-    console.log(`1-son: ${a}, 2-son: ${b}`);
-  },
-  sum: function (a, b) {
-    return a + b;
-  },
-  mul: function (a, b) {
-    return a * b;
-  },
-};
+// let calculator = {
+//   read: function (a, b) {
+//     console.log(`1-son: ${a}, 2-son: ${b}`);
+//   },
+//   sum: function (a, b) {
+//     return a + b;
+//   },
+//   mul: function (a, b) {
+//     return a * b;
+//   },
+// };
 
-calculator.read(10, 20);
-console.log(calculator.sum(10, 20));
-console.log(calculator.mul(10, 200));
+// calculator.read(10, 20);
+// console.log(calculator.sum(10, 20));
+// console.log(calculator.mul(10, 200));
+
+
+let Obj = {
+  name: "webbrain",
+  age: 21,
+  child: {
+    name: "eshmar",
+    age: 20,
+    child: {
+      name: "toshmat",
+      age: 25
+    }
+  }
+}
+
+let sum=0
+while(1){
+  if(Obj){
+// console.log(Obj.age);
+sum+=Obj.age
+  } else{
+break
+  }
+  Obj=Obj.child
+}
+
+console.log(sum);
