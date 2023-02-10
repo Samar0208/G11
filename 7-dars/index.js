@@ -69,6 +69,51 @@
 
 // console.log(Math.sign(12)); // 1
 
-let a = 3;
+// let a = 10;
 
-console.log(parseInt(a.toString(2)));
+// console.log(a.toString(3), 2);
+
+// function toBinary(decimal) {
+//   return (decimal >>> 0).toString(2);
+// }
+
+// function count(son) {
+//   son = toBinary(son);
+//   console.log(son); // 11001
+//   var bir = 0;
+//   var nol = 0;
+//   for (var i in son) {
+//     if (son[i] == 1) {
+//       bir += 1;
+//     } else {
+//       nol += 1;
+//     }
+//   }
+//   console.log(`birlar soni ${bir}`); // birlar soni 3
+//   console.log(`nollar soni ${nol}`); // nollar soni 2
+// }
+// count(25);
+
+// function ayirma(a, b) {
+//   if (a > b) {
+//     return a - b;
+//   } else {
+//     return b - a;
+//   }
+// }
+
+// console.log(ayirma(3, 5)); // 2
+
+function rondom(min, max) {
+  return Math.floor(Math.random() * (min + max + 1)) + min;
+}
+
+console.log(rondom(1, 50)); // 50
+
+// let a = "10+20*2";
+// console.log(eval(a));
+
+// let a = 25;
+// console.log(a.toString(2)); // 11001
+
+// console.log(Object.is(2, "2"));
