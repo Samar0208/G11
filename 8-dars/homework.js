@@ -28,8 +28,21 @@
 
 //============== 3 =======
 
-function truncate(str, n) {
-  console.log(str.substring(str, 5));
-  console.log(str.slice(n, 5));
+// function truncate(str, n) {
+//   console.log(str.substring(str, 5)); // webbr
+
+//   console.log(str.slice(n, 5)); // webbr
+// }
+// truncate("webbrain academy");
+
+// ============== 4 ==========
+
+let sum = {
+  dol: "$1200",
+};
+for (key in sum) {
+  if (typeof sum[`${key}`] == "number") {
+    sum[`${key}`] = sum[`${key}`];
+  }
 }
-truncate("webbrain academy");
+console.log(sum.toString(2));
