@@ -149,9 +149,36 @@ let univ = [[1, 2, 3], 4];
 // let res = num.flatMap((v) => v);
 // console.log(res); // [ 1, 2, [ 3, 4 ], 5, 6 ]
 
-let num = [1, 2, 3, 4, 5, 6, 7];
-let res = num.reduce((cur, value) => {
-  console.log(cur, value);
-  return cur + value;
-}, 0);
-console.log(res);
+// let num = [1, 2, 3, 4, 5, 6, 7];
+// let res = num.reduce((cur, value) => {
+//   console.log(cur, value);
+//   return cur + value;
+// }, 0);
+// console.log(res);
+
+// function getRes(str) {
+//   let res = {};
+//   for (l of str) {
+//     console.log(l);
+//     if (res[l]) {
+//       res[l] = res[l] + 1;
+//     } else {
+//       res[l] = 1;
+//     }
+//   }
+//   return res;
+// }
+// console.log(getRes("webbrain Academy"));
+// w: 1,
+// e: 2,
+// b: 2,
+// r: 1,
+// a: 2,
+// i: 1,
+// n: 1,
+// ' ': 1,
+// A: 1,
+// c: 1,
+// d: 1,
+// m: 1,
+// y: 1
