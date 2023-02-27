@@ -12,7 +12,7 @@
 
 // =============== 2-homework ========
 
-let str = ["webbrain", "Academy"];
+// let str = ["webbrain", "Academy"];
 
 // let res = { string: 0, char: 0 };
 // for (l of str) {
@@ -23,9 +23,9 @@ let str = ["webbrain", "Academy"];
 
 //================ 3-homework =====
 
-let str1 = ["webbrain Academy"];
-let str2 = ["webbrain Academy"];
-console.log(str1.localeCompare(str2)); // 0
+// let str1 = ["webbrain Academy"];
+// let str2 = ["webbrain Academy"];
+// console.log(str1.localeCompare(str2)); // 0
 
 // function getRes(str) {
 //   let res = {};
