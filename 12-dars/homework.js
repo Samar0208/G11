@@ -69,12 +69,13 @@
 
 // ========== LL =========
 
-const moment=(symbol)=>{
-    let date= new Date()
-        let weeks = ["Yanvar", "Fevral", "Mart"]
+const moment = (symbol) =>
+{
+    let date = new Date()
+    let weeks = ["Yanvar", "Fevral", "Mart"]
 
-    let format= [`${weeks[date.getMonth()]} ${date.getDate()}${symbol} ${date.getFullYear()}`]
-    let LL=format
-return `presentDay: ${LL}`
+    let format = [`${weeks[date.getMonth()]} ${date.getDate()}${symbol} ${date.getFullYear()}`]
+    let LL = format
+    return `presentDay: ${LL}`
 }
-console.log(moment(","));
+console.log(moment(",")); // presentDay: Mart 1, 2023
