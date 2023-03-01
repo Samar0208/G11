@@ -197,3 +197,11 @@ let months = ["yanvar", "fevral", "mart", "Aprel"];
 //   return `MMM Do YY: ${MMM}`;
 // };
 // console.log(moment()); // MMM Do YY: mar 1 23
+
+// const moment = (symbol) => {
+//   let date = new Date();
+//   let format = `${date.getFullYear()} ${symbol} ${date.getFullYear()}`;
+//   let YYY = format;
+//   return `YYYY [cecaped] YYYY ${YYY}`;
+// };
+// console.log(moment("cecaped")); // YYYY [cecaped] YYYY 2023 cecaped 2023
