@@ -39,5 +39,9 @@
 // set();
 // console.log(obj.name);
 
-console.log();
-setTimeout(() => {}, timeout);
+console.log("Started...");
+setTimeout(() => {
+    console.log("test");
+}, 5000);
+console.log("Finished");
+
