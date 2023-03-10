@@ -41,7 +41,6 @@
 
 console.log("Started...");
 setTimeout(() => {
-    console.log("test");
+  console.log("test");
 }, 5000);
 console.log("Finished");
-
